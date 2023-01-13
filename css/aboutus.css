@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(-90deg, #ffffff, #ffa812, #ffffff);
+}
+
+h1{
+    text-align: center;
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+
+.content-box{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+
+#unitydonation {
+    color: #333;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Open Sans", "IBM Plex Sans", sans-serif;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    margin-right: 700px;
+    cursor: pointer;
+}
+
+#header{
+    margin-left: 70px;
+    background-color:rgb(22, 185, 49);
+    /* background:linear-gradient(rgb(46, 46, 46),rgb(255, 255, 255));  */
+     height: 63px;
+    position: sticky;
+    top: 0px;
+    z-index:+100;
+    width: 90%;
+    border-radius: 10em;
+    margin-top: 10px;
+    padding-right:10px ;
+    /* filter: drop-shadow(0rem 0rem 0.2rem rgb(212, 211, 211)); */
+}
+
+#unity{
+    color:#ff8800;
+    text-transform:uppercase;
+}
+
+#donation{
+    color:white;
+    text-transform:uppercase;
+}
+
+.tablelement {
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 0px;            
+}
+.tablelement:hover{
+    color: white;
+    background-color: black;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top:25.5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.selected{
+    color: white;
+    background-color: black;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top:25.5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ a{
+    text-decoration: none;
+}
+
+#lastdiv{
+    margin-top:20%;
+    height:300px;
+    background-color: black;
+    /* color: white; */
+}
+.texts{
+   color: white;
+   font-family: "Open Sans","IBM Plex Sans",sans-serif ;
+   margin: 0px;
+   /* padding-top: 5px; */
+}

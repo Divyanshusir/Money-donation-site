@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Get_help</title>
+
+	<link rel="icon" type="image/png" href="image/icons/favicon.ico"/>
+
+	<link rel="stylesheet" href="css/login_navbar.css">
+    <link rel="stylesheet" href="css/gethelp.css"> 
+</head>
+<body>
+	<div class="navbar"></div>
+	<div class="limiter">
+		<div class="box">
+			<div class="navbar"><header id="header">
+				<table cellspacing="20px" align="right">
+					<tr>
+						<td class="all"><a  href="main.php" class="tablelement">
+								Home
+							</a></td>
+						</div>
+						
+						<!-- <td class="all"><a href="login.html" class="tablelement">
+									Login
+							</a></td> -->
+						<td class="all"><a class="tablelement" href="aboutus.html">
+								About Us
+							</a></td>
+						<td class="all"><a class="tablelement" href="register.html">
+								Register
+							</a></td>
+						<td class="all"><a class="selected"  href="gethelp.html">
+								Get Help
+							</a></td>
+					</tr>
+				</table>
+				<div id="unitydonation"><b id="unity">Unity</b> <b id="donation">Donation</b></div>
+			</header></div>
+			<div class="whitebox">
+
+				<form action="gethelp.php" method="post" >
+					<span class="formtitle">
+						Request For Support
+                    </span>
+
+					<div class="commoninput" >
+						<input class="data" type="number" name="amount_needed" required placeholder="Amount needed">
+						<span class="focusonselect"></span>
+						<span class="inputcontent">
+						</span>
+					</div>
+					
+					<div class="commoninput" >
+                        <textarea class="dataarea" required name="details" placeholder="Explain the reason for which you need Funding" ></textarea>
+						<span class="focusonselect"></span>
+						<span class="inputcontent">
+							
+						</span>
+					</div>
+					
+					 <div class="container-btn">
+						<button class="btn">
+							Request
+						</button>
+					</div>
+					<div class="Register">
+						Not Logined Yet  ? 
+						<a class="txt2" href="login.html">
+							Login
+							</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

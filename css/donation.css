@@ -1,0 +1,139 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Yaldevi', sans-serif;
+}
+
+
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 22px;
+}
+
+
+.myProducts-gallery img{
+	height: 92px;
+    width: 80px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+}
+
+.myProducts-gallery img:hover {
+	opacity: .4;
+}
+
+.myProducts-gallery {
+	float: left;
+}
+
+.myProducts {
+    padding-left: 100px;
+	top: 60%; 
+	 left: 25%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+}
+
+.image-container img {
+	height: 400px;
+	transition: transform 1s;
+}
+
+.image-container img:hover{
+	transform: scale(1.5);
+	cursor: zoom-in;
+}
+
+.image-container {
+	float: right;
+	padding: 10px;
+}
+
+.qr{
+  width: 50%;
+}
+
+.paymentform{
+    float: right;
+    padding-right: 5%;
+
+}
+
+#unitydonation {
+    color: #333;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Open Sans", "IBM Plex Sans", sans-serif;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    margin-right: 700px;
+    cursor: pointer;
+}
+
+#header{
+    margin-left: 70px;
+    background-color:rgb(22, 185, 49);
+    /* background:linear-gradient(rgb(46, 46, 46),rgb(255, 255, 255));  */
+     height: 63px;
+    position: sticky;
+    top: 0px;
+    z-index:+100;
+    width: 90%;
+    border-radius: 10em;
+    margin-top: 10px;
+    padding-right:10px ;
+    /* filter: drop-shadow(0rem 0rem 0.2rem rgb(212, 211, 211)); */
+}
+
+#unity{
+    color:#ff8800;
+    text-transform:uppercase;
+}
+#donation{
+    color:white;
+    text-transform:uppercase;
+}
+
+.tablelement {
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    padding-top: 0px;            
+}
+.tablelement:hover{
+    color: white;
+    background-color: black;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top:25.5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.selected{
+    color: white;
+    background-color: black;
+    cursor:pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top:25.5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ a{
+    text-decoration: none;
+}
